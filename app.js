@@ -32,7 +32,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
 }))
-
+    
 // Passport middleware 
 app.use(passport.initialize())
 app.use(passport.session())
